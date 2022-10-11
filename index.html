@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=2">
+   
+   <title>button</title>
+   
+   
+</head>
+<body>
+   <!-- Create a button and add the "hello" function -->
+  
+
+<button id="button1"> 1 </button>
+<button id="button2"> 2 </button>
+<button id="button3"> 3 </button>
+<button id="button+"> + </button>
+
+<button id="button4"> 4 </button>
+<button id="button5"> 5 </button>
+<button id="button6"> 6 </button>
+<button id="button-"> - </button>
+<button id="button7"> 7 </button>
+<button id="button8"> 8 </button>
+<button id="button9"> 9 </button>
+<button id="button*"> * </button>
+<button id="buttonSum" > = </button>
+ <label id="input"></label>
+<script>
+   //Tareks take
+   //var input1 ="";
+   //var input2 = "";
+  
+   
+
+   function addToInput (inValue){
+      var previous = document.getElementById("input").innerText
+
+      document.getElementById("input").innerText = previous + inValue
+   
+   }
+  var operation= "=";
+  var myButton= document.getElementById("buttonSum");
+  myButton.addEventListener("click",result);
+  function result(){
+   onclick.addEventListener()
+  }
+
+   var number1=1;
+  var myButton= document.getElementById("button1");
+  myButton.addEventListener("click",hello);
+  function hello(){
+   //alert(toShow);
+   addToInput(1);
+  }
+  
+
+  var number2=2;
+  var myButton=document.getElementById("button2");
+  myButton.addEventListener("click",hello2);
+  function hello2() {
+   // alert (number2);
+   addToInput(2);
+  }
+  var number3=3;
+  var myButton=document.getElementById("button3");
+  myButton.addEventListener("click",hello3);
+  function hello3() {
+   //alert (number3);
+   addToInput(3);
+  }
+  var plus= "+" ;
+  var myButton=document.getElementById("button+");
+  myButton.addEventListener("click",hello4);
+  function hello4() {
+   //alert (plus);
+   addToInput(plus);
+
+  }
+  document.write("<p>");
+  document.write("<br>");
+  var number4=4;
+  var myButton= document.getElementById("button4");
+  myButton.addEventListener("click",hello5);
+  function hello5(){
+   //alert(number4);
+   addToInput(4);
+  }
+  
+
+  var number5=5;
+  var myButton=document.getElementById("button5");
+  myButton.addEventListener("click",hello6);
+  function hello6() {
+   //alert (number5);
+   addToInput(5);
+  }
+  
+  var number6=6;
+  var myButton=document.getElementById("button6");
+  myButton.addEventListener("click",hello7);
+  function hello7() {
+   //alert (number6);
+   addToInput(6);
+  }
+  
+  var minus= "-" ;
+  var myButton=document.getElementById("button-");
+  myButton.addEventListener("click",hello8);
+  function hello8() {
+   //alert (minus);
+   addToInput(minus);
+  }
+  
+  document.write("<br>");
+  var number7=7;
+  var myButton= document.getElementById("button7");
+  myButton.addEventListener("click",hello9);
+  function hello9(){
+   //alert(number7);
+   addToInput(7);
+  }
+  
+
+  var number8=8;
+  var myButton=document.getElementById("button8");
+  myButton.addEventListener("click",hello10);
+  function hello10() {
+   //alert (number8);
+   addToInput(8);
+  }
+  
+  var number9=9;
+  var myButton=document.getElementById("button9");
+  myButton.addEventListener("click",hello11);
+  function hello11() {
+   //alert (number9);
+   addToInput(9);
+  }
+  
+  var multiply= "*" ;
+  var myButton=document.getElementById("button*");
+  myButton.addEventListener("click",hello12);
+  function hello12() {
+   
+  //alert (multiply);
+  addToInput(multiply);
+  }
+
+  
+</script>
+</body>
+</html>
